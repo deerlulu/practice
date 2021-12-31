@@ -36,5 +36,4 @@ let flatten = (obj) => {
   process('', obj)
   return result
 }
-
-console.log(flatten(obj))
+flatten(obj)
